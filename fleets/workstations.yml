@@ -71,7 +71,7 @@ controls:
       - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
       - path: ../platforms/macos/configuration-profiles/1password-managed-settings.mobileconfig
         labels_include_all: 
-          - Department: Engineering
+          - "Department: Engineering"
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
